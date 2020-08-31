@@ -1,0 +1,49 @@
+{
+    "Inbox": {
+        "address": "0xbd2fd4d66a3404441a5edda65262835e4aa94fea",
+        "abi": [
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "newMessage",
+                        "type": "string"
+                    }
+                ],
+                "name": "setMessage",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "initialMessage",
+                        "type": "string"
+                    }
+                ],
+                "name": "inboxMessage",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "message",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            }
+        ]
+    }
+}
